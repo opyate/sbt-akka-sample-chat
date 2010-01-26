@@ -16,8 +16,8 @@ import scala.collection.mutable.HashMap
 
 /******************************************************************************
   To run the sample: 
-  1. Install Akka
-  2. In another shell run 'java -jar ./dist/akka-0.6.jar' to start up Akka microkernel
+  1. Make sure Akka is installed, and redis is running
+  2. In another shell run 'java -jar $AKKA_HOME/dist/akka-0.6.jar' to start up Akka microkernel
   3. In this shell start sbt, and run the "update" sbt command
   4. go to the console with the "console" sbt command you get execute: 
     - scala> import se.scalablesolutions.akka.sample.chat._
