@@ -16,6 +16,7 @@ import scala.collection.mutable.HashMap
 
 /******************************************************************************
   To run the sample: 
+  0. read this: http://jonasboner.com/2010/01/04/introducing-akka.html
   1. Make sure Akka is installed, and redis is running
   2. In another shell run 'java -jar $AKKA_HOME/dist/akka-0.6.jar' to start up Akka microkernel
   3. In this shell start sbt, and run the "update" sbt command
