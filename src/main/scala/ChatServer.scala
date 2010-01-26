@@ -16,10 +16,10 @@ import scala.collection.mutable.HashMap
 
 /******************************************************************************
   To run the sample: 
-  1. Run 'mvn install' (builds and deploys jar to AKKA_HOME/deploy)
+  1. Install Akka
   2. In another shell run 'java -jar ./dist/akka-0.6.jar' to start up Akka microkernel
-  3. In the first shell run 'mvn scala:console -o'
-  4. In the REPL you get execute: 
+  3. In this shell start sbt, and run the "update" sbt command
+  4. go to the console with the "console" sbt command you get execute: 
     - scala> import se.scalablesolutions.akka.sample.chat._
     - scala> Runner.run
   5. See the chat simulation run
