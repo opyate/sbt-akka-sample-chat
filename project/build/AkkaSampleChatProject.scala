@@ -5,6 +5,7 @@ class AkkaSampleChatProject(info: ProjectInfo) extends DefaultProject(info){
     val databinder = "DataBinder" at "http://databinder.net/repo"
     val configgy = "Configgy" at "http://www.lag.net/repo"
     val multiverse = "Multiverse" at "http://multiverse.googlecode.com/svn/maven-repository/snapshots"
+	val multiverseReleases = "Multiverse Releases" at "http://multiverse.googlecode.com/svn/maven-repository/releases/"
     val jBoss = "jBoss" at "http://repository.jboss.org/maven2"
     val akka_repo = "Akka Maven Repository" at "http://scalablesolutions.se/akka/repository"
 
